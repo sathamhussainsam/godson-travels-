@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0a6b4f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.call-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #ffcc00;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Packages */
+.packages {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.package-card {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.package-card h3 {
+    color: #0a6b4f;
+    margin-bottom: 10px;
+}
+
+.package-card ul {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.package-card ul li {
+    margin: 5px 0;
+}
+
+.package-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #0a6b4f;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Contact */
+.contact {
+    background: #0a6b4f;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
